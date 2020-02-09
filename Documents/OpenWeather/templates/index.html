@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static',filename='css/style.css')}}" />
+    </head>
+
+    <body>
+
+        <h1>Current Temperature</h1>
+
+        <b>{{ location}}</b>
+
+        <b>{{ temperature }}</b>
+
+        <form method="POST">
+            <input type="text" name="location">
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>

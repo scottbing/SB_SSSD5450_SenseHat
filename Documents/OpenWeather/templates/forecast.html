@@ -1,0 +1,28 @@
+<html>
+
+	<head>
+		<title>Weather App</title>
+        	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css')}}" />
+	</head>
+	<body>
+
+		<h1>Forecast</h1>
+
+		<h2>{{ forecast.city.name }}</h2>
+
+		<div class="forecast">
+        {% for F in forecast.list  %}
+
+            <div class="weather">
+                <strong>date:</strong> {{ F.dt_txt }}
+                <strong>humidity:</strong> {{ F.main.humidity }}
+                <img src="http://openweathermap.org/img/w/{{ F.weather.0.icon }}.png">
+            </div>
+
+        </div>
+        {% endfor %}
+
+	</body>
+
+
+</html>

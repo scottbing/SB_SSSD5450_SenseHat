@@ -1,0 +1,12 @@
+[Unit]
+Description=WhoAmI
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/Documents/
+ExecStart=/usr/bin/python3 sense.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

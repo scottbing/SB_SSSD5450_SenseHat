@@ -1,0 +1,89 @@
+      body{
+              margin: 0;
+              background: #013220;
+              text-align: center;
+      }
+      button{
+            height:30px;
+            width:150px;
+            background-color: darkgreen; /* Green */
+            color: white;
+      }
+      .box{
+          position: absolute;
+          top: 25%;
+          left: 25%;
+          background-color: lightgreen;
+          width: 200px;
+          border: 15px solid darkgreen;
+          padding: 50px;
+          margin: 20px;
+      }
+      textarea {
+          width: 1175px;
+          height: 350px;
+          font-size:16px;
+          color: darkgreen;
+      }
+      h1 {
+          text-align: center;
+      }
+      p {
+          color: white;
+          font-size: 32px;
+          
+      }
+      input[type="text"], textarea {
+          background-color : #d1d1d1;
+		  font-size:20px;
+      }
+      .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+      }
+      .custom {
+	  	  color: darkgreen;
+	  	  font-size:20px;
+       }
+label{
+  width: 50%;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 5px;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+input{
+  width: 100px;
+  height: 24px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  background: #808080;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 2px;
+  transition: background 200ms;
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+input:focus{
+  outline: none;
+  background: #808080;
+  color: #222;
+}
+input[type=button]{
+  background: #111;
+  color: #eee;
+  margin-left: 50%;
+  font-weight: normal;
+  cursor: pointer;
+}
+input[type=button]:active{
+  transform: translate(2px,2px);
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}

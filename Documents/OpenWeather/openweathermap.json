@@ -1,0 +1,43 @@
+{
+    "base": "stations",
+    "clouds": {
+        "all": 90
+    },
+    "cod": 200,
+    "coord": {
+        "lat": 41.43,
+        "lon": -82.71
+    },
+    "dt": 1580174772,
+    "id": 0,
+    "main": {
+        "feels_like": 270.15,
+        "humidity": 86,
+        "pressure": 1014,
+        "temp": 274.42,
+        "temp_max": 275.15,
+        "temp_min": 273.71
+    },
+    "name": "Sandusky",
+    "sys": {
+        "country": "US",
+        "id": 5319,
+        "sunrise": 1580129241,
+        "sunset": 1580164765,
+        "type": 1
+    },
+    "timezone": -18000,
+    "visibility": 16093,
+    "weather": [
+        {
+            "description": "overcast clouds",
+            "icon": "04n",
+            "id": 804,
+            "main": "Clouds"
+        }
+    ],
+    "wind": {
+        "deg": 320,
+        "speed": 3.1
+    }
+}
